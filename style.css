@@ -1,0 +1,150 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.body1 {
+  background-color: mediumpurple;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar1 {
+  background-color: mediumslateblue;
+  width: 100%;
+  height: 10%;
+}
+
+.ul-navbar1 { 
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 4vh;
+  font-weight: 800px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.li-navbar1 {
+  height: auto;
+  background-color: mediumpurple;
+  list-style: none;
+  padding: 10px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.li-navbar1:hover{
+  background-color: slateblue;
+  transition: .5s ease-in-out;
+  transition-delay: .3s;
+  border-radius: 8px;
+}
+
+.a-navbar1 {
+  color: white;
+  text-decoration: none;
+  font-weight: 800px;
+}
+
+.content1{
+  width: 100%;
+  height: 10%;
+  background-color: slateblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.h1-content1 {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 10vh;
+}
+
+.img1 {
+  transform: rotate(270deg);
+  max-width: 30vw;
+  width: 60vw;
+  height: auto;
+}
+
+.content2{
+  width: 100%;
+  height: 70%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  width: 100%;
+  height: 10%;
+  background-color: slateblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.h1-footer {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 10vh;
+}
+
+.body2 {
+  background-color: red;
+  width: 100%;
+  height: 100%;
+}
+
+.div-alert1{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1-alert{
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 10vh;
+}
+
+.div-alert2{
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img2 {
+  max-width: 70vw;
+  width: 70vw;
+  height: auto;
+}
